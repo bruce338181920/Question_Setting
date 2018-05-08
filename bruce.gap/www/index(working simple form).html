@@ -1,0 +1,81 @@
+<!doctype html>
+<head>
+<title>Simple Form Creation Example</title>
+</head>
+<body>
+<h1> This is a simple form</h1>
+
+<p>Was UCL found in:</p>
+<label for="question">Enter your question</label><input type="text" size="70" id="question"/>
+
+<p>Answer</p>
+<label for="answera">A</label><input type="text" size="10" id="answera"/>
+<label for="answerb">B</label><input type="text" size="10" id="answerb"/>
+<label for="answerc">C</label><input type="text" size="10" id="answerc"/>
+<label for="answerd">D</label><input type="text" size="10" id="answerd"/>
+
+<p>What is the right answer</p>
+<select name="languageselectbox" id="Answerbox">
+	<option>A </option>
+	<option>B</option>
+	<option>C</option>
+	<option>D</option>
+
+  <!--  <label for="latitude">Latitude</label><input type="text" size="25" id="latitude"/><br />
+    <label for="longitude">Longitude</label><input type="text" size="25" id="longitude"/><br />-->
+    
+  
+
+</select>
+<br />
+<br />
+
+
+
+<!-- Try to get the location when it is summitted-->
+
+<b>Please Click this to show your location</b>
+<div id='showLocation'>Location will be displayed here</div>
+<button id='getLocation' onclick='getLocation()'>Click Me to Get Your Location</button>
+
+<p>Click here to upload the data</p>
+<button id="startUpload" onclick="startDataUpload()">Start Data Upload</button>
+<br />
+
+</div>
+
+
+<div id="dataUploadResult">
+ <p>The result of the upload goes here</p>
+</div>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+
+
+
+<label for="lattitude"><br>
+  
+<del><dfn>Lattitude</dfn></del></label>
+<input type="text" size="70" id="latitude" /><br />
+<label for="longitude"><dfn><del>longitude</del></dfn></label>
+<input type="text" size="25" id="longitude" /><br />
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="./js/apActivity.js"></script>
+<script src="./js/uploadData.js"></script>
+</body>

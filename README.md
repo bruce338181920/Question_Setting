@@ -4,7 +4,7 @@ UCL - CEGEG090
 Web and Mobile GIS
 Assignment
 Technical Guide for Question setting App
-
+Database user number: 97 ; Ubuntu user number : 97
 Technical guide:
 
 1.	After set up the server
@@ -12,3 +12,4 @@ Technical guide:
 3.	Go to the directory, “Quiz_App/bruce.ucfscde” in the command port 
 4.	Run the server by the following command: “phonegap serve”
 5.	Note that, the Database user number is 97, and the Ubuntu user number is 97
+6.	Go to the link: http://developer.cege.ucl.ac.uk:31297/ , remember to to UCL VPN.
